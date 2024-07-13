@@ -1,0 +1,11 @@
+<div class="offcanvas" [ngClass]="{'show': showPopup}">
+    <div class="offcanvas-content">
+        <span class="close" (click)="togglePopup()">&times;</span>
+        <p class="m-0">
+            Migrating Data to selected environment
+        </p>
+        <div class="progress-bar-container">
+            <div class="progress-bar" [style.width.%]="progress"></div>
+        </div>
+    </div>
+</div>

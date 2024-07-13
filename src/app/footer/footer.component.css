@@ -1,0 +1,20 @@
+.footer {
+    background-color: #fff;
+    padding: 8px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    border-top: 0.5px solid #dedada;
+}
+
+.footer-logo {
+    width: 100px;
+}
+
+.footer-content p {
+    color: #9f9d9d;
+    font-size: 14px;
+    font-family: system-ui;
+}

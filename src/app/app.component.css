@@ -1,0 +1,71 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+.navbar-custom-bg{
+    background: #fff;
+    border-bottom: 1px solid #fff;
+    box-shadow: 0px -2px 2px 2px;
+}
+
+.centerBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.centerBtn button {
+    padding: 3px 40px;
+    border-radius: 5px;
+}
+
+.nav-icons {
+    border: 1px solid blue;
+    padding: 0px 3px;
+    background: blue;
+    border-radius: 5px;
+}
+
+.nav-icons i {
+    color: #fff;
+    font-weight: 600;
+}
+
+.badge {
+    padding: 0px;
+    height: 8px;
+    width: 8px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    right: 50px;
+    top: 6px;
+}
+
+.us-logo {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.iconsStyle {
+    color: #8d8b8b;
+    font-size: 20px;
+    -webkit-text-stroke: 0.3px;
+    margin-left: 15px;
+}
+
+.avatar {
+    margin-left: 15px;
+}
+
+.avatar img {
+    display: inline-block;
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    border: 1px solid #dee2e6;
+    border-radius: 50%;
+    background: #fff;
+    line-height: 3rem;
+    padding: 2px;
+}
