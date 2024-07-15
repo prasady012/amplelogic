@@ -43,3 +43,33 @@
   border-radius: 25px;
   transition: width 0.1s;
 }
+
+.leftColorDiv{
+  width: 60px;
+  background: #0c6efd;
+  font-size: 36px;
+  text-align: center;
+  padding-top: 14px;
+  padding-right: 8px;
+  color: #fff;
+  align-self: normal;
+}
+.closeIcon{
+  padding: 4px 24px;
+  background: #0c6efd;
+  width: fit-content;
+  position: absolute;
+  top: -32px;
+  right: 8px;
+  color: #fff;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+
+}
+.triangle-right {
+width: 0;
+height: 0;
+  border-top: 12px solid transparent;
+  border-left: 32px solid #0c6efd;
+  border-bottom: 12px solid transparent;
+}

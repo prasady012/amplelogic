@@ -26,6 +26,7 @@ export class ProgressCanvasComponent implements OnInit {
   }
 
   togglePopup() {
+    this.progressService.stopProgress();
     this.showPopup = !this.showPopup;
   }
 }
